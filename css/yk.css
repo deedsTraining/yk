@@ -1,0 +1,19 @@
+a, a:link, a:visited { color: #fff; text-decoration:none; outline:0 }
+a:hover { color: #fff; text-decoration:underline }
+a:focus { text-decoration:underline }
+@font-face { font-family:AbyssinicaSILW; src:url("font/AbyssinicaSIL-R.woff") format("woff") }               
+body { background-color: #5e4934; color: white; font-family: "AbyssinicaSILW", sans-serif }
+img { border:0;padding:0 }
+#image_header { display: block; margin-left: auto; margin-right: auto; text-align:center }
+#toc { padding-left:14em; padding-bottom:10em }
+.column { width:40%;float:left }
+h3 { padding-left:2em }
+p { line-height:1.1em }
+p.four { padding-left: 4em; font-size:.9em; font-weight:900 }
+p.five { padding-left: 6em; font-size:.8em; font-weight:800 }
+p.six  { padding-left: 8em; font-size:.8em; font-weight:800 }
+p.seven { padding-left: 10em; font-size:.8em; font-weight:800 }
+#nav { width:90%; margin:0 auto; list-style:none; word-spacing:-.25em; text-align:center }
+#nav li { display:-moz-inline-box; display:inline-block; vertical-align:top; padding:2px }
+#nav img { display:block; border:0; padding:0 }
+#nav a span { display:block; font-size:.9em; width:100px; font-weight:bolder }
