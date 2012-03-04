@@ -1,18 +1,26 @@
+/* links */
 a, a:link, a:visited { color: #fff; text-decoration:none; outline:0 }
 a:hover { color: #fff; text-decoration:underline }
 a:focus { text-decoration:underline }
-@font-face { font-family:AbyssinicaSILW; src:url("font/AbyssinicaSIL-R.woff") format("woff") }               
-body { background-color: #5e4934; color: white; font-family: "AbyssinicaSILW", sans-serif }
-img { border:0;padding:0 }
-#image_header { display: block; margin-left: auto; margin-right: auto; text-align:center }
+/* fonts */
+/* ie */
+@font-face { font-family:"nyala";  src:url('../font/nyala.eot') }
+/* For Other Browsers */
+@font-face { font-family:"nyala"; src:url("../font/nyala.eot"); src: local("☺"), url('../font/nyala.ttf') format('truetype') }
+body { background-color:#5e4934; color:white; font-family:sans-serif }
+img { border:0; padding:0 }
+#image_header { display:block; margin-left:auto; margin-right:auto; text-align:center }
 #toc { padding-left:14em; padding-bottom:10em }
-.column { width:40%;float:left }
-h3 { padding-left:2em }
-p { line-height:1.1em }
-p.four { padding-left: 4em; font-size:.9em; font-weight:900 }
-p.five { padding-left: 6em; font-size:.8em; font-weight:800 }
-p.six  { padding-left: 8em; font-size:.8em; font-weight:800 }
-p.seven { padding-left: 10em; font-size:.8em; font-weight:800 }
+.column { width:48%; float:left }
+/* text */
+h1 { font-size:3em; line-height:3.5em; font-weight:bold; font-family:"nyala", sans-serif }
+h2 { font-size:2.6em; font-weight:bolder; font-family:"nyala", sans-serif }
+h3 { font-size:1.4em; font-weight:bolder }
+p.four { padding-left:.5em; font-size:1.2em; font-weight:bolder }
+p.five { padding-left:1em; font-size:1.2em }
+p.six  { padding-left:1.5em; font-size:1em }
+p.seven { padding-left:2em; font-size:1em }
+/* nav menu */
 #nav { width:90%; margin:0 auto; list-style:none; word-spacing:-.25em; text-align:center }
 #nav li { display:-moz-inline-box; display:inline-block; vertical-align:top; padding:2px }
 #nav img { display:block; border:0; padding:0 }
