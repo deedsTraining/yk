@@ -11,9 +11,10 @@ body { background-color:#5e4934; color:white; font-family:sans-serif }
 img { border:0; padding:0 }
 #image_header { display:block; margin-left:auto; margin-right:auto; text-align:center }
 /* #toc { padding-left:14em; padding-bottom:10em } */
-.column { width:45%; float:left }
+.column { width:40%; float:left }
 .right { margin:0 }
-.left { margin:0 0 0 10% }
+.left { margin:0 0 0 15% }
+#image { width:80%; margin: 0 auto 5% auto }
 /* text */
 h1 { font-size:3em; line-height:3.5em; font-weight:bold; font-family:"nyala", sans-serif; padding:0; margin:0 }
 h2 { font-size:2.5em; font-weight:bolder; font-family:"nyala", sans-serif }
